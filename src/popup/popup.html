@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="popup.css">
+  <% if (NODE_ENV === 'development') { %>
+  <!-- resources that shows up only in development environment -->
+  <% } %>
+  <style>
+    html{
+      box-sizing: border-box;
+      background-color: #FAFAFA;
+      height:100%;
+    }
+    body{
+      font-size:16px;
+      margin:0px;
+      height:100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

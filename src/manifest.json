@@ -1,0 +1,36 @@
+{
+  "name": "vue-chrome-extension-boilerplate",
+  "description": "vue.js chrome extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "http://localhost*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "vue-chrome-extension-boilerplate",
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/placeholder.png"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
+  "omnibox": { "keyword" : "omnibox" },
+  "icons": {
+    "16":"icons/placeholder.png",
+    "32":"icons/placeholder.png",
+    "48":"icons/placeholder.png",
+    "128":"icons/placeholder.png"
+  }
+}
