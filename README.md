@@ -5,7 +5,7 @@ The repository contains a basic app architecture(preferred/subjective) that prel
 ### What is in it?
 * **A store** setup for centralized state management (using [vuex](https://github.com/vuejs/vuex))
 * **A router** setup to fully utilize extension's pop-up and to make it behave like a regular webapp (using [vue-router](https://github.com/vuejs/vue-router))
-* [SASS](https://github.com/sass/sass) as the CSS preprocesser coupled with [Bulma](https://github.com/jgthms/bulma) as an arbitrary CSS framework.
+* [SASS](https://github.com/sass/sass) as the CSS preprocesser coupled with [Bulma](https://github.com/jgthms/bulma) as an arbitrary CSS framework
 * Project gets bundled with [webpack](https://github.com/webpack/webpack)
 
 ### Installing
@@ -34,7 +34,7 @@ npm run build:zip
 
 ```
 
-After following the instructions above, open a new tab in your browser and go to `chrome://extensions/`. Then switch "Developer mode" if it is not enabled.
+After following the instructions above, open a new tab in your browser and go to `chrome://extensions/`. Then switch `Developer mode` if it is not enabled.
 Click on `Load unpacked` and select the `dist` folder created in the project root after running 4.1 or 4.2. 
 
 After loading you are good to go. Please make sure to repeat step 4 whenever you make changes in the code.
